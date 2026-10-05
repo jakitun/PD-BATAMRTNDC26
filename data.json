@@ -1,0 +1,1565 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-05T06:17:51Z",
+  "publishedStages": [
+    1
+  ],
+  "results": [
+    {
+      "stage": 1,
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "finish": "Runner-up",
+      "points": 4
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "finish": "Champion",
+      "points": 6
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "finish": "Participant",
+      "points": 1
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "finish": "Participant",
+      "points": 1
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "finish": "Joint 3rd",
+      "points": 3
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "finish": "Participant",
+      "points": 1
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "finish": "Participant",
+      "points": 1
+    },
+    {
+      "stage": 1,
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "finish": "Joint 3rd",
+      "points": 3
+    }
+  ],
+  "legs": [
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        17.72,
+        23.66
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        2.33,
+        0.5
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        3.62,
+        1.14
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        21.05,
+        16.53
+      ],
+      "result": "L",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        4.26,
+        2.5
+      ],
+      "result": "W",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        3.5,
+        3.2
+      ],
+      "result": "W",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        20.11,
+        20.73
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        2.87,
+        2
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        27.86,
+        23.58
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-1",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        24.33,
+        21.69
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-1",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        4.5,
+        3
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "Final-3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        27.93,
+        12.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "Final-3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Larry",
+        "Ping"
+      ],
+      "stats": [
+        2,
+        1.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        35.5,
+        17
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        6,
+        4
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        33.13,
+        17
+      ],
+      "result": "W",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        3.62,
+        2
+      ],
+      "result": "L",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        6,
+        0.75
+      ],
+      "result": "W",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        32.25,
+        17.41
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        3,
+        2.16
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        34.66,
+        14.75
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-2",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        22.56,
+        27.66
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-2",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        3.5,
+        1.42
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "Final-3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        30.85,
+        22.41
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "Final-3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        3.15,
+        1.83
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        21.93,
+        27.66
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        3,
+        1.83
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v8",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        25.06,
+        19.06
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v4",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        23.2,
+        16.25
+      ],
+      "result": "L",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v4",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        2.62,
+        2.14
+      ],
+      "result": "L",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        30.73,
+        13.46
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Emil"
+      ],
+      "stats": [
+        2.75,
+        1.57
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        22.91,
+        18.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        2.5,
+        2.57
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-4v8",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        1.75,
+        1.75
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v4",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        17.06,
+        21
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v4",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        2.59,
+        2
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        26.38,
+        16.41
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        2.6,
+        1.2
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Erick",
+        "Celvin"
+      ],
+      "stats": [
+        21.46,
+        11.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        31.08,
+        19.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        2.66,
+        0.5
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        20.83,
+        10.33
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-2v3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        2.87,
+        1.57
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Emil"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        25.33,
+        13.52
+      ],
+      "result": "L",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        3.5,
+        2
+      ],
+      "result": "W",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-B-3v4",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        31.8,
+        18.33
+      ],
+      "result": "W",
+      "opponents": [
+        "Erick",
+        "Celvin"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-2",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        16.93,
+        22.66
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-2",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Jimmy"
+      ],
+      "stats": [
+        2.75,
+        2.28
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        20,
+        17.23
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        2,
+        2.42
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v7",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        21.5,
+        21.08
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        33,
+        16.16
+      ],
+      "result": "W",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        3.25,
+        2.71
+      ],
+      "result": "L",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        36.41,
+        21.72
+      ],
+      "result": "W",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-6v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        26,
+        14.03
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-6v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Key"
+      ],
+      "stats": [
+        1.5,
+        5.26
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        24.83,
+        14.94
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        2.66,
+        2
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v5",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        3.16,
+        3.2
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": [
+        "Luis"
+      ]
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        20.16,
+        17.44
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        3.75,
+        2.57
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v7",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        33.83,
+        24.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v6",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        25.6,
+        20.73
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v6",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Luis",
+        "Ali"
+      ],
+      "stats": [
+        1.87,
+        4.28
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        26.73,
+        17.86
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        5,
+        5.25
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-5v6",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        3.75,
+        0.91
+      ],
+      "result": "W",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-6v7",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        41.76,
+        13.16
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-6v7",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        4.5,
+        2.7
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v6",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        16.73,
+        35.83
+      ],
+      "result": "L",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "RR-A-1v6",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        2.5,
+        2.28
+      ],
+      "result": "L",
+      "opponents": [
+        "Luis",
+        "Ali"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-1",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        29.66,
+        21
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 1,
+      "match": "SF-1",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        3,
+        2.5
+      ],
+      "result": "L",
+      "opponents": [
+        "Larry",
+        "Ping"
+      ],
+      "provisionalPlayers": []
+    }
+  ]
+}
