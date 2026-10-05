@@ -18,16 +18,16 @@ Repository: https://github.com/jakitun/PD-BATAMRTNDC26
 
 GitHub Pages URL: https://jakitun.github.io/PD-BATAMRTNDC26/
 
-The site initially uses the checked Stage 1 snapshot. Sheets sync requires the setup below.
+The site is configured to read the filtered Google Apps Script feed. Stage 1 is published. The bundled Stage 1 snapshot is a visibly labelled fallback if the feed is unavailable.
 
-## Connect the existing private Google Sheet (one-time setup)
+## Sheets connection (configured; retained setup reference)
 
 1. From the existing League Tracker, open Extensions → Apps Script.
 2. Add sheets-bridge.gs. The script reads only Stage results and Leg log; it never reads Payment. Review the allowlisted public fields before deploying.
 3. In Apps Script Project Settings → Script properties, add PUBLISHED_STAGES with value 1. Later change to 1,2, etc. when each stage is ready for players. An empty value publishes no stages.
 4. Deploy → New deployment → Web app. Execute as yourself; access Anyone. Authorize the Sheet read access. This publicly exposes only the exported player names, results and stats; it does not publish the underlying spreadsheet.
 5. Paste the deployment's /exec URL into feedUrl in config.js and publish that one file to Pages.
-6. Confirm in a private browser window that results load and the status says Sheets connected. Verify the browser's JSON response contains only intended public fields. The bridge and cross-origin connection have not been live-deployed/tested in this prototype.
+6. Confirm in a private browser window that results load and the status says Sheets connected. Verify the browser's JSON response contains only intended public fields. The live feed has been deployed and its scores and stats checked against the Stage 1 source.
 
 Published stage data refreshes when the page opens and every five minutes while open. Changes to those stages in Sheets need no website deployment. A failed feed falls back to the dated Stage 1 preview and clearly labels that state. No passwords, service-account keys, or access tokens belong in config.js or the repository.
 
