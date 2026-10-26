@@ -89,14 +89,17 @@ function ratingFor(value,game){
  if(!Number.isFinite(value)||value<0)return null;
  const bands=ratingBands[game];let rating=1;
  for(let i=1;i<bands.length;i++){if(value<bands[i])break;rating=i+1;}
- return rating;
+ if(rating===bands.length)return rating;
+ const lower=bands[rating-1],upper=bands[rating];
+ return rating+(value-lower)/(upper-lower);
 }
 function performanceStats(player){
- const ppd=player.ppd.length?Number(mean(player.ppd)):null,mpr=player.mpr.length?Number(mean(player.mpr)):null;
- const legs=player.w+player.l;
- return {...player,ppd,mpr,ppdLegs:player.ppd.length,mprLegs:player.mpr.length,rt01:ratingFor(ppd,'ppd'),rtCr:ratingFor(mpr,'mpr'),legs,difference:player.w-player.l,winRate:legs?player.w/legs:null,stagesPlayed:player.stages.length};
+ const ppd=player.ppd.length?player.ppd.reduce((sum,value)=>sum+value,0)/player.ppd.length:null,mpr=player.mpr.length?player.mpr.reduce((sum,value)=>sum+value,0)/player.mpr.length:null;
+ const legs=player.w+player.l,rt01=ratingFor(ppd,'ppd'),rtCr=ratingFor(mpr,'mpr');
+ const estimatedRating=rt01===null||rtCr===null?null:(rt01+rtCr)/2;
+ return {...player,ppd,mpr,estimatedRating,ppdLegs:player.ppd.length,mprLegs:player.mpr.length,rt01,rtCr,legs,difference:player.w-player.l,winRate:legs?player.w/legs:null,stagesPlayed:player.stages.length};
 }
-let performanceSort={key:'ppd',direction:'desc'};
+let performanceSort={key:'estimatedRating',direction:'desc'};
 function renderPerformance(){
  const query=$('#performance-search').value.trim().toLowerCase(),minimum=Number($('#minimum-legs').value);
  const list=players.map(performanceStats).filter(p=>p.name.toLowerCase().includes(query)&&p.legs>=minimum);
@@ -105,7 +108,7 @@ function renderPerformance(){
  $('#performance-count').textContent=`${list.length} / ${players.length} PLAYERS`;
  document.querySelectorAll('.performance-table th[data-sort]').forEach(th=>{const active=th.dataset.sort===key;th.setAttribute('aria-sort',active?(direction==='asc'?'ascending':'descending'):'none');th.querySelector('.sort-arrow').textContent=active?(direction==='asc'?' ↑':' ↓'):'';});
  const number=(value,pending=false)=>value==null?'—':`${value.toFixed(2)}${pending?'*':''}`;
- $('#performance-body').innerHTML=list.map(p=>`<tr><td><button class="player-link" data-name="${escape(p.name)}">${escape(p.name)}</button></td><td><b>${number(p.ppd,p.pendingPPD)}</b><small>${p.ppdLegs} legs</small></td><td>${p.rt01??'—'}${p.pendingPPD&&p.rt01!==null?'*':''}</td><td><b>${number(p.mpr,p.pendingMPR)}</b><small>${p.mprLegs} legs</small></td><td>${p.rtCr??'—'}${p.pendingMPR&&p.rtCr!==null?'*':''}</td><td>${p.legs}</td><td>${p.w}–${p.l}</td><td>${p.winRate===null?'—':Math.round(p.winRate*100)+'%'}</td><td>${p.stagesPlayed}</td></tr>`).join('')||'<tr><td colspan="9" class="empty">No players match these filters.</td></tr>';
+ $('#performance-body').innerHTML=list.map(p=>`<tr><td><button class="player-link" data-name="${escape(p.name)}">${escape(p.name)}</button></td><td><b>${number(p.estimatedRating,p.pendingPPD||p.pendingMPR)}</b></td><td><b>${number(p.ppd,p.pendingPPD)}</b><small>${p.ppdLegs} legs</small></td><td>${number(p.rt01,p.pendingPPD)}</td><td><b>${number(p.mpr,p.pendingMPR)}</b><small>${p.mprLegs} legs</small></td><td>${number(p.rtCr,p.pendingMPR)}</td><td>${p.legs}</td><td>${p.w}–${p.l}</td><td>${p.winRate===null?'—':Math.round(p.winRate*100)+'%'}</td><td>${p.stagesPlayed}</td></tr>`).join('')||'<tr><td colspan="10" class="empty">No players match these filters.</td></tr>';
  $('#performance-estimates').hidden=!list.some(p=>p.pending);
 }
 async function fetchData(url){const response=await fetch(url,{signal:AbortSignal.timeout(12000),cache:'no-store'});if(!response.ok)throw Error('Feed unavailable');const d=await response.json();if(d.schemaVersion!==1||!Array.isArray(d.results)||!Array.isArray(d.legs)||!Array.isArray(d.publishedStages))throw Error('Invalid feed');return d;}
