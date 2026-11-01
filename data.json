@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T17:34:15.417Z",
+  "updatedAt": "2026-11-01T15:00:44.252Z",
   "publishedStages": [
     1,
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "results": [
     {
@@ -337,6 +338,51 @@
       "stage": 5,
       "players": [
         "Jeff",
+        "Angel"
+      ],
+      "finish": "Participant",
+      "points": 1
+    },
+    {
+      "stage": 6,
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "finish": "Champion",
+      "points": 6
+    },
+    {
+      "stage": 6,
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "finish": "Runner-up",
+      "points": 4
+    },
+    {
+      "stage": 6,
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "finish": "3rd",
+      "points": 3
+    },
+    {
+      "stage": 6,
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "finish": "4th",
+      "points": 3
+    },
+    {
+      "stage": 6,
+      "players": [
+        "Derick",
         "Angel"
       ],
       "finish": "Participant",
@@ -7504,6 +7550,766 @@
       "opponents": [
         "Vando",
         "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        20.66,
+        30.75
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        3.62,
+        1.42
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        26.72,
+        13.33
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        4.5,
+        1.85
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        33.78,
+        18.08
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB Final #13",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        35.71,
+        16.75
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB Final #13",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        3.85,
+        2
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "Final #14",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        27,
+        23.22
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "Final #14",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fernando",
+        "Key"
+      ],
+      "stats": [
+        3.14,
+        1.66
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        20,
+        31
+      ],
+      "result": "L",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        4.12,
+        3
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        23.33,
+        17.4
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        16.25,
+        20.45
+      ],
+      "result": "W",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        2.83,
+        4
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        2.16,
+        1.66
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB Final #13",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        20.41,
+        27.66
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB Final #13",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Vando",
+        "Vito"
+      ],
+      "stats": [
+        1.71,
+        2.5
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        35.64,
+        16.83
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        4.37,
+        2.42
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #2",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        26.66,
+        15.8
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB2 #9",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        27.53,
+        14
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB2 #9",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Derick",
+        "Angel"
+      ],
+      "stats": [
+        4,
+        1.66
+      ],
+      "result": "L",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #3",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        29.75,
+        31.27
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB1 #3",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        2.75,
+        3
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB2 #8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        25.52,
+        17.8
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB2 #8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        4.08,
+        3.75
+      ],
+      "result": "W",
+      "opponents": [
+        "Robby",
+        "Jacky"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        30.33,
+        22
+      ],
+      "result": "L",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        3.66,
+        3.35
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB Final #12",
+      "leg": 3,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        2.83,
+        2.66
+      ],
+      "result": "W",
+      "opponents": [
+        "Vando",
+        "Vito"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "Final #14",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        34.25,
+        29
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "Final #14",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Fadli",
+        "Luis"
+      ],
+      "stats": [
+        2.74,
+        2.66
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB2 #8",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        22.93,
+        18.93
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "UB2 #8",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        1.8,
+        3.25
+      ],
+      "result": "L",
+      "opponents": [
+        "Fadli",
+        "Luis"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB2 #9",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        27.64,
+        15.4
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB2 #9",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        4.5,
+        3
+      ],
+      "result": "W",
+      "opponents": [
+        "Derick",
+        "Angel"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 1,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        22.83,
+        18.32
+      ],
+      "result": "W",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 2,
+      "game": "CR MPR",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        3.25,
+        3.42
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Key"
+      ],
+      "provisionalPlayers": []
+    },
+    {
+      "stage": 6,
+      "match": "LB3 #11",
+      "leg": 3,
+      "game": "701 PPD",
+      "players": [
+        "Robby",
+        "Jacky"
+      ],
+      "stats": [
+        33.16,
+        20.16
+      ],
+      "result": "L",
+      "opponents": [
+        "Fernando",
+        "Key"
       ],
       "provisionalPlayers": []
     }
